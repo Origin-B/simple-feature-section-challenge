@@ -8,7 +8,9 @@ export default function FeatureCard({ feature }: { feature: Feature }) {
       <span className={`rounded-full p-2 text-2xl ${icon.bg}`}>
         {icon.text}
       </span>
-      <h3 className="text-card-heading max-w-[25ch]">{heading}</h3>
+      <h3 className="text-card-heading max-w-[25ch] text-[1.25rem] font-semibold">
+        {heading}
+      </h3>
       <p className="max-w-[25ch]">{paragraph}</p>
 
       <div className="overflow-hidden rounded-xl">
