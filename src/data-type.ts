@@ -21,11 +21,11 @@ const features: Feature[] = [
     images: [
       {
         id: 1,
-        path: "../public/photo_1.png",
+        path: "/public/photo_1.png",
       },
       {
         id: 2,
-        path: "../public/photo_1@2x.png",
+        path: "/public/photo_1@2x.png",
       },
     ],
   },
@@ -38,11 +38,11 @@ const features: Feature[] = [
     images: [
       {
         id: 1,
-        path: "../public/photo_2.png",
+        path: "/public/photo_2.png",
       },
       {
         id: 2,
-        path: "../public/photo_2@2x.png",
+        path: "/public/photo_2@2x.png",
       },
     ],
   },
@@ -55,11 +55,11 @@ const features: Feature[] = [
     images: [
       {
         id: 1,
-        path: "../public/photo_3.png",
+        path: "/public/photo_3.png",
       },
       {
         id: 2,
-        path: "../public/photo_3@2x.png",
+        path: "/public/photo_3@2x.png",
       },
     ],
   },
