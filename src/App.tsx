@@ -2,6 +2,7 @@ import { features } from "./data-type";
 
 import Header from "./component/Header";
 import FeatureCard from "./component/FeatureCard";
+import Footer from "./component/Footer";
 function App() {
   return (
     <main className="flex flex-col gap-8 p-8">
@@ -12,6 +13,8 @@ function App() {
           <FeatureCard key={feature.id} feature={feature} />
         ))}
       </section>
+
+      <Footer />
     </main>
   );
 }
