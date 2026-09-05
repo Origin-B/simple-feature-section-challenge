@@ -4,7 +4,7 @@ export default function Footer() {
       <p className="*:text-main-heading *:hover:text-card-heading *:font-semibold *:transition-colors">
         Coded by{" "}
         <a
-          href="https://github.com/Origin-B/simple-feature-section-challenge"
+          href="https://github.com/Origin-B"
           target="_blank"
           rel="noopener noreferrer"
         >
